@@ -1,7 +1,7 @@
 
 $(document).ready(function (event){
 $("#signup").on('submit',(function(e) {
-    console.log(e);
+    //console.log(e);
     e.preventDefault();
     $.ajax({
     url: "../scripts/checksignup.php",
